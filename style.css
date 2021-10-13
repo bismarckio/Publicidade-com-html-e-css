@@ -1,0 +1,60 @@
+/* criando animação da id banner*/
+#banner {
+  width: 100px;
+  height: 100px;
+  border-radius: 400px;
+ 
+  /*caso ainda não saiba pesquise tabelas de cores hexadecimal*/
+  background: #ADD8E6; 
+  animation-name: animacao-banner;
+  animation-duration: 3s;
+  animation-delay: 0,5s;
+  animation-direction: alternate;
+  animation-iteration-count: 30;
+  
+}
+
+@keyframes animacao-banner {
+  from{
+    background: #ADD8E6;
+    width: 100px;
+    height: 100px;
+    border-radius: 400px;
+  }
+  to{
+    background: #87CEFA;
+    width: 500px;
+    height: 100px;
+    border-radius: 100px;
+  }
+}
+
+/*fim da criação da id banner*/
+
+
+/*início da id ban para css no texto*/
+h1 {
+  font-size: 20px;
+  padding: 25px 5px;
+  margin: 10px;
+}
+
+@keyframes animacao-ban {
+  from{
+    font-size: 20px;
+  }
+  to{
+    font-size: 30px;
+  }
+}
+ 
+#ban {
+  font-size: 20px;
+    animation-name: animacao-ban;
+  animation-duration: 3s;
+  animation-delay: 0,5s;
+  animation-direction: alternate;
+  animation-iteration-count: 30;
+}
+
+/*fim*/
